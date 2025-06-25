@@ -9,7 +9,7 @@ This script provides a centralized way to toggle the automatic startup of Rockwe
 - Windows services
 - Device drivers
 
-The script is particularly useful for developers, technicians, or system administrators who need to quickly enable or disable Rockwell software components without manually managing each component individually.
+This script is especially useful for users who need to quickly enable or disable Rockwell software components that may conflict with ETS6, particularly regarding USB interface usage.
 
 ## Features
 
@@ -114,7 +114,7 @@ Get-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\RSSERIAL" -Name 
 
 - **Script**: ToggleRockwell.ps1
 - **Compatible with**: Windows 10/11, Windows Server 2016+
-- **PowerShell**: 5.1+
+- **PowerShell**: >= 7.5
 
 ## Notes
 
@@ -124,4 +124,4 @@ Get-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\RSSERIAL" -Name 
 
 ## Author
 
-This script is designed for system administrators and technicians working with Rockwell Automation software environments.
+This script is designed for system administrators and technicians working with Both ETS and Rockwell Automation software environments.
