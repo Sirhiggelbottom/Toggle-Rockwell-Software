@@ -18,13 +18,13 @@ This script is especially useful for users who need to quickly enable or disable
 - **Driver Management**: Manages the RSSERIAL driver startup behavior
 - **Administrative Privileges**: Automatically elevates to administrator privileges when needed
 - **Safe Operation**: Moves disabled startup applications to a separate registry location instead of deleting them
+- **Autoruns Compatible**: The script uses the same registry locations as Autoruns, so any changes made by the script are visible in Autoruns after a refresh.
 
 ## Requirements
 
 - Windows operating system
-- PowerShell 5.1 or later
+- PowerShell 7.5 or later
 - Administrative privileges (script will auto-elevate if needed)
-- Rockwell Automation software installed on the system
 
 ## Usage
 
