@@ -101,7 +101,7 @@ function Toggle_Services {
   param(
     [bool]$state
   )
-  $manual_Services = @("Rockwell Event Multiplexer", "Rockwell Directory Multiplexer", "Rockwell Application Services")
+  $manual_Services = @("Rockwell Event Multiplexer", "Rockwell Directory Multiplexer", "Rockwell Application Services", "RSLinx Classic")
 
   
   
